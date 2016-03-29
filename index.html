@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kittens!</title>
+  <script   src="https://code.jquery.com/jquery-2.2.2.js"   integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="model.js"></script>
+  <script type="text/javascript" src="view.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
+  <script defer type="text/javascript" src="setup.js"></script>
+</head>
+
+<body>
+<h2>Add a cat</h2>
+<form id="new_cat_form">
+  Name: <input type="text" id="cat_name"> <br>
+  Born: <input type="date" id="cat_born_on"> <br>
+  Breed id: <input type="text" id="cat_breed_id"> <br>
+  Image: <input type="text" id="cat_image_url">
+  <input type="submit" value="Save cat">
+</form>
+
+<h2>Cats</h2>
+<div id="cat-list"></div>
+
+
+
+</body>
+</html>
